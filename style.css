@@ -1,0 +1,54 @@
+#ab a:link  {
+    text-decoration: none ;
+    color: black;
+    background-color: rgba(165, 42, 42, 0.418);
+     font-size: large;
+     text-align: center;
+     padding: 1px;
+     
+}
+#ab a:hover{
+     border: rgba(165, 42, 42, 0.418)ed solid 2px;
+     background-color: rgba(0, 0, 0, 0.082);
+     color: rgba(165, 42, 42, 0.418);
+ }
+
+
+
+
+
+body{
+    background-image: url(resimler/arkaplan.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+ }
+ .altcizgi{
+    margin-block-end: 5%;
+ }
+ .genel{
+    border:none;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+ }
+ .table{
+    background: #eee;
+    border: 2px solid black;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+ }
+
+ 
+ tr{text-align: left;
+ margin-left: 2%;
+ }            
+ table{
+     width: auto;              
+    
+ }
+

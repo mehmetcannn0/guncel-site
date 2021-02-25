@@ -27,6 +27,7 @@
      background-color: rgba(0, 0, 0, 0.082);
 
      color: rgba(165, 42, 42, 0.418);
+     font-size: 26px;
 
  }
 
@@ -34,7 +35,11 @@
 
    margin-top: 170px;
  }
+#ab a{
 
+   letter-spacing: 1px;
+   border-radius: 5px;
+}
  #ab{
    padding: 25px;
   
@@ -47,8 +52,21 @@
    background-color:#946053;
    /*#513029*/
    border-radius: 25px;
+
    
 
+}
+#ab,#tel,#mah_cad,.iletisim img{
+   transition: 0.5s;
+   
+   
+
+
+}
+.iletisim a:hover,#mah_cad:hover,.iletisim img:hover{
+   width: 100px;
+
+   font-size: 40px;
 }
 
 head{
@@ -66,6 +84,8 @@ head{
     background-position: center;
 
     background-size: 100% 100%;
+    
+    
 
  }
 
@@ -124,7 +144,5 @@ head{
      width: auto;                
 
  }
-
-
 
 
